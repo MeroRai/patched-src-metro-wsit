@@ -50,7 +50,7 @@
         <groupId>org.glassfish.metro</groupId>
         <artifactId>metro-bom-ext</artifactId>
         <relativePath>boms/bom-ext/pom.xml</relativePath>
-        <version>2.3.2-SNAPSHOT</version>
+        <version>2.3.2-b608</version>
     </parent>
 
     <groupId>org.glassfish.metro</groupId>
@@ -678,7 +678,7 @@
                     </exclusions>
                 </dependency>
                 <!-- needed for cobertura-instrument ant task to work (in *-rt, *-tools)
-                     and to not be included in assemblies/shaded jars -->
+                and to not be included in assemblies/shaded jars -->
                 <dependency>
                     <groupId>oro</groupId>
                     <artifactId>oro</artifactId>
@@ -776,6 +776,18 @@
             <layout>default</layout>
         </repository>
         <repository>
+            <id>payara-patched-externals</id>
+            <name>Payara Patched Externals</name>
+            <url>https://raw.github.com/payara/Payara_PatchedProjects/master</url>
+            <!--<url>file:///opt/PayaraDev/Payara_PatchedProjects</url>-->
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
             <id>jvnet-nexus-staging</id>
             <url>https://maven.java.net/content/repositories/staging/</url>
             <layout>default</layout>
@@ -785,6 +797,20 @@
             <url>http://download.eclipse.org/rt/eclipselink/maven.repo/</url>
         </repository>
     </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>payara-patched-externals</id>
+            <name>Payara Patched Externals</name>
+            <url>https://raw.github.com/payara/Payara_PatchedProjects/master</url>
+            <!--<url>file:///opt/PayaraDev/Payara_PatchedProjects</url> -->
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
   
     <properties>
         <release.repository.url>https://maven.java.net/content/repositories/releases/</release.repository.url>

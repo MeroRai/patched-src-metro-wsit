@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Export-Package: com.sun.org.apache.xml.internal.resolver.tools,       
+                          com.sun.org.apache.xml.internal.resolver,   
+                              com.sun.source.tree,                    
+             com.sun.source.util,                                com.s
+ un.tools.javac.processing,                                com.sun.too
+ ls.javac.util
+Implementation-Title: Extra JDK 6 packages required by Metro Web Servi
+ ces OSGi bundle
+Implementation-Version: 2.3.2-b608
+Built-By: susan
+Tool: Bnd-1.43.0
+Bundle-Name: Extra JDK 6 packages required by Metro Web Services OSGi 
+ bundle
+Created-By: Apache Maven Bundle Plugin
+Implementation-Vendor: Oracle Corporation
+Bundle-Vendor: Oracle Corporation
+Fragment-Host: system.bundle;extension:=framework
+Implementation-Vendor-Id: org.glassfish.metro
+Build-Jdk: 1.6.0_45
+Bundle-Version: 2.3.2.b608
+Implementation-Build-Id: UNKNOWN_BRANCH-false, 2017-11-08T16:25:02+0000
+Bnd-LastModified: 1510158359147
+Bundle-ManifestVersion: 2
+Bundle-Description: Extra JDK 6 packages required by Metro Web Service
+ s OSGi bundle
+Bundle-License: https://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-DocURL: http://www.oracle.com/
+Bundle-SymbolicName: org.glassfish.metro.webservices-extra-jdk-package
+ s
+

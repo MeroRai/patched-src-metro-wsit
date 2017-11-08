@@ -1,0 +1,1 @@
+/bin/sh -c cd /home/susan/Downloads/mymetero-wsit/patched-src-metro-wsit/wsit/ws-sx/wssx-impl && /usr/lib/jvm/java-6-oracle/jre/../bin/javac @/home/susan/Downloads/mymetero-wsit/patched-src-metro-wsit/wsit/ws-sx/wssx-impl/target/classes/org.codehaus.plexus.compiler.javac.JavacCompiler576089420700216256arguments -J-Xmx512m -J-Xms128m
